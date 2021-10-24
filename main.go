@@ -1,11 +1,13 @@
 package main
 
 import (
-	"github.com/ProWily/gobyexample/packages/BCServer"
+	"fmt"
+	"github.com/ProWily/gobyexample/bcserver"
 )
 
 func main() {
 
-	server()
+	fmt.Println("hello")
+	bcserver.Server()
 
 }
